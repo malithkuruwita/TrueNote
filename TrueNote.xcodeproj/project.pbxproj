@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B35D4D22290A38000345E10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B35D4D12290A38000345E10 /* GoogleService-Info.plist */; };
 		1B72369322907F30001F6433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72369222907F30001F6433 /* AppDelegate.swift */; };
 		1B72369522907F30001F6433 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72369422907F30001F6433 /* ViewController.swift */; };
 		1B72369822907F30001F6433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B72369622907F30001F6433 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0FE11A235A6CDA6695E958B3 /* Pods_TrueNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrueNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B35D4D12290A38000345E10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1B72368F22907F30001F6433 /* TrueNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B72369222907F30001F6433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B72369422907F30001F6433 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				1B72369222907F30001F6433 /* AppDelegate.swift */,
 				1B72369922907F32001F6433 /* Assets.xcassets */,
 				1B72369E22907F32001F6433 /* Info.plist */,
+				1B35D4D12290A38000345E10 /* GoogleService-Info.plist */,
 			);
 			path = TrueNote;
 			sourceTree = "<group>";
@@ -184,7 +187,6 @@
 				242E2BEED68A479D9C951B56 /* Pods-TrueNoteUITests.debug.xcconfig */,
 				D648E8CE93535522B34C3A76 /* Pods-TrueNoteUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B72369D22907F32001F6433 /* LaunchScreen.storyboard in Resources */,
+				1B35D4D22290A38000345E10 /* GoogleService-Info.plist in Resources */,
 				1B72369A22907F32001F6433 /* Assets.xcassets in Resources */,
 				1B72369822907F30001F6433 /* Main.storyboard in Resources */,
 			);
@@ -335,15 +338,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TrueNote/Pods-TrueNote-resources.sh",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
@@ -357,15 +356,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TrueNoteTests-checkManifestLockResult.txt",
 			);
@@ -379,15 +374,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TrueNoteUITests-checkManifestLockResult.txt",
 			);
@@ -401,15 +392,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TrueNote-checkManifestLockResult.txt",
 			);
@@ -422,8 +409,6 @@
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TrueNote/Pods-TrueNote-frameworks.sh",
@@ -438,8 +423,6 @@
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
